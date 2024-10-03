@@ -1,0 +1,9 @@
+{
+  "name": "Python devcontainer demo",
+  "image": "ghcr.io/iaingalloway/devcontainers/python:1.2-python3.12.3",
+  "runArgs": [
+    "--name",
+    "python-devcontainer-demo",
+    "--network=host"
+  ]
+}
